@@ -29,6 +29,21 @@ class CityListTest {
         assertTrue(cityList.hasCity(new City("Regina", "Saskatchewan")));
     }
 
+    //------------------------------------------------------------------------------------
+    // Test added that would fail
+    @Test
+    void newTestAdd() {
+        CityList cityList = mockCityList();
+
+        assertEquals(1, cityList.countCities());
+
+        cityList.add(new City("Edmonton", "Alberta"));
+
+        assertEquals(2, cityList.countCities());
+        assertTrue(cityList.hasCity(new City("Regina", "Saskatchewan")));
+    }
+    //------------------------------------------------------------------------------------
+
     @Test
     void testAddException() {
         CityList cityList = mockCityList();
