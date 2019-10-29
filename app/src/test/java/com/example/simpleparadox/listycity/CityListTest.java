@@ -100,42 +100,16 @@ class CityListTest {
 
         System.out.println("TESTING 1!");
 
+
         assertEquals(2, cityList.countCities());
 
 
-        //cityList.add(new City("Regina", "Saskatchewan"));
 
-        //assertEquals(2, cityList.countCities());
-        //assertTrue(cityList.hasCity(new City("Regina", "Saskatchewan")));
 
 
 
     }
 
-
-    @Test
-    void failTest2(){
-        CityList cityList = mockCityList();
-
-
-        System.out.println("TESTING 2!");
-        assertEquals(0, cityList.countCities());
-
-
-
-    }
-
-
-    @Test
-    void failTest3(){
-        CityList cityList = mockCityList();
-
-
-        System.out.println("TESTING 3!");
-
-
-        assertFalse(cityList.hasCity(mockCity()));
-    }
 
 
 
