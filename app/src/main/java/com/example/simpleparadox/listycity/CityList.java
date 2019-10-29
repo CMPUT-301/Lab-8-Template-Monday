@@ -78,7 +78,10 @@ public class CityList {
         return cities.size();
     }
 
-    public int clear() {
-
+    public void clear() {
+        for (City city : cities) {
+            cities.remove(city);
+            break;
+        }
     }
 }
