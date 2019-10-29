@@ -126,4 +126,19 @@ class CityListTest {
     }
 
 
+    @Test
+    void failTest3(){
+        CityList cityList = mockCityList();
+
+
+        System.out.println("TESTING 3!");
+
+
+        assertFalse(cityList.hasCity(mockCity()));
+    }
+
+
+
 }
+
+
