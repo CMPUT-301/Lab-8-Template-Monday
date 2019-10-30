@@ -17,7 +17,10 @@ class CityListTest {
         return new City("Edmonton", "Alberta");
     }
 
-
+    @Test
+    void fail(){
+        assertEquals(1,2);
+    }
 
     @Test
     void testAdd() {
