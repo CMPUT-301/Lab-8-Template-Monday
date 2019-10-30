@@ -17,10 +17,8 @@ class CityListTest {
         return new City("Edmonton", "Alberta");
     }
 
-    @Test
-    void Fail(){
-        assertEquals(-1,2);
-    }
+
+
     @Test
     void testAdd() {
         CityList cityList = mockCityList();
