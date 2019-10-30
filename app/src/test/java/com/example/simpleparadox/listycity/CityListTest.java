@@ -88,6 +88,13 @@ class CityListTest {
     }
 
     @Test
+    void testAddFails(){
+        CityList cityList = mockCityList();
+
+        cityList.add(123);
+    }
+
+    @Test
     void testCountCities() {
         CityList cityList = mockCityList();
 
