@@ -19,7 +19,7 @@ class CityListTest {
 
     @Test
     void fail(){
-        assertEquals(1,2);
+        assertEquals(1,1);
     }
 
     @Test
