@@ -1,0 +1,4 @@
+#Mon Oct 28 17:23:20 MDT 2019
+base.0=/Users/shearpaladin/Desktop/Lab-8-Template-Monday/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
