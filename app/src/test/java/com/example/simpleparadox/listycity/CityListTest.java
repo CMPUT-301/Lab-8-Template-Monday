@@ -94,8 +94,8 @@ class CityListTest {
         assertEquals(1, cityList.countCities());
     }
 
-    @Test
-    void testCI(){
-        assertNotEquals(1,1);
-    }
+    //@Test
+    //void testCI(){
+      //  assertNotEquals(1,1);
+    //}
 }
